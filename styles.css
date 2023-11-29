@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 28px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.models{
+    margin: 1vw 4vw;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw 30vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#button{
+    /* position: absolute; */
+    width: 30%;
+    height: 2vw;
+    margin: auto;
+}
